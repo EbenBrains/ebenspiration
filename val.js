@@ -21,9 +21,10 @@ yesBtn.addEventListener("click", () => {
   popup.classList.remove("hidden");
 
   const phoneNumber = "2348105619954"; // your WhatsApp number
-  const message = encodeURIComponent("Yes I will be your val 💖");
+  const message = encodeURIComponent("Yes Mi bon bon 🍫 I will be your val 💖");
 
   setTimeout(() => {
     window.location.href = `https://wa.me/${phoneNumber}?text=${message}`;
   },    500);
 });
+
