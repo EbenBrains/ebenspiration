@@ -12,13 +12,21 @@
   }
   
   .container {
-    background: #fff;
-    padding: 30px;
-    border-radius: 20px;
-    text-align: center;
-    position: relative;
-    width: 350px;
-  }
+  width: 100vw;
+  height: 100vh;
+
+  background: #fff;
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+  position: relative;
+}
+
   
   .val-image {
     width: 100%;
@@ -91,4 +99,5 @@
       opacity: 1;
     }
   }
+
   
