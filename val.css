@@ -11,21 +11,15 @@
     align-items: center;
   }
   
-  .container {
-  width: 60vw;
-  height: 60vh;
-
+ .container {
   background: #fff;
-  padding: 40px;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
+  padding: 30px;
+  border-radius: 20px;
   text-align: center;
   position: relative;
+  width: 350px;
 }
+
 
   
   .val-image {
@@ -101,4 +95,5 @@
   }
 
   
+
 
